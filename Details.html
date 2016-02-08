@@ -1,0 +1,88 @@
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Sears Holdings India</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/scriptweb.js"></script>
+<script src="https://cdn.firebase.com/js/client/2.4.0/firebase.js"></script>
+<style>
+body{
+padding-top:20px;
+background-color:#92dce0;
+}
+footer{
+padding-top:20px;
+}
+</style>
+</head>
+<body onload="onForm();">
+<div class="container-fluid" style="background-color:#92dce0;" >
+			<!--Header of Page-->
+			<div class="header" style="background-color:#333333;color:#E05151;border-radius:10px">
+					<div class="container text-center">
+							<h2>Sears Holdings India</h2>
+					</div>
+			</div><!--End of Header -->
+			<!--Body -->
+				<div class="flex-body" style="text-align:justify;" >
+					<div id="info1">
+				
+					</div>
+				</div><!--End of Body -->
+
+
+
+
+<hr>
+<!--Footer-->
+<footer class="container-fluid" >
+		<!--Body of Footer-->
+			<div class="row content" style="background-color:#333333;color:#E05151;border-radius:10px">
+					<!--Footer Left-->
+							<div class="col-md-4">
+								<h2>Sears Holdings India</h2>
+								<br>
+								<br>
+								<hr>
+								<label for="comment">7th Floor,Wing 2</label>
+								<label for="comment">Cluster D,</label>
+								<label for="comment">Eon Free Zone IT park</label>
+								<label for="comment">MIDC Kharadi,</label>
+								<label for="comment">Knownledge Park,</label>
+								<label for="comment">Maharashtra Pune Pin-code-411014</label>
+								<span class="glyphicon glyphicon-chevron-earphone"></span><label for="comment">Phone Number :+91-02 67308500</label>
+								<label for="comment">Fax Number :<span class="glyphicon glyphicon-chevron-earphone"></span> +91-02 673087000</label>
+							</div><!--End of Footer Left-->
+				
+					<!--Footer Right-->
+							<div class="col-md-8">
+									<h4>Contact</h4>
+									<hr>
+										<form role="form" name ="User_Contact"  action="" method="post">
+												<div class="form-group">
+													<label for="name">Enter Name</label>
+													<input type="text" class="form-control" name="User_Name" placeholder="Enter Name">
+												</div>
+												<div class="form-group">
+													<label for="email">Enter Email Id</label>
+													<input type="email" class="form-control" name="User_Mail" placeholder="Enter Email">
+												</div>
+												<div class="form-group">
+													<label for="comment">Message:</label>
+													<textarea class="form-control" rows="1" name="User_Message"></textarea>
+												</div>
+												<button type="button" class="btn btn-default" onclick="validateForm();">Submit</button>
+												<div class="form-group">
+													<label for="comment">Response:</label>
+													<textarea class="form-control" rows="1" name="User_Response"></textarea>
+												</div>
+										</form>
+							</div><!--End of Footer Right-->
+			</div>
+		<!--End Body of Footer-->
+</footer><!--End of Footer-->
+</body>
+</html>
